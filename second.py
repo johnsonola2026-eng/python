@@ -1,0 +1,7 @@
+print("welcome,to programming!")
+print(4)
+print("hello,python\n")
+print("hi my name is Emmanuel")
+print(5*8)
+print("my age is",10)
+print("my hobby is playing games")
