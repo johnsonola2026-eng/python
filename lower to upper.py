@@ -1,2 +1,2 @@
-print("congratulations")
-print("CONGRATULATIONS")
+s="congratulations"
+print(s.upper())
