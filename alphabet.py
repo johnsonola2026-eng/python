@@ -1,6 +1,6 @@
-"a"
-1
-if ("both are alphabets"):
-    print("both are alphabets")
-else:("if it's a number")
-print("no a is correct")
+a="alphabet"
+b="number"
+if ("a = alphabet"):
+    print("a is an alphabet")
+else:("if b = alphabet")
+print("and b is an alphabet")
