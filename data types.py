@@ -1,3 +1,5 @@
+from builtins import print
+
 a=5
 print("type of a:", type(a))
 
@@ -8,4 +10,4 @@ c=("coding")
 print("type of c:", type(c))
 
 d=True
-print("type of c:", type(d))
+print("type of d:", type(d))

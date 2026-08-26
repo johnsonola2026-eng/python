@@ -1,15 +1,17 @@
-rowsize=int(input("please enter the number of rows:"))
-if rowsize&2==0:
-    halfdiamrow=int(rowsize/2)
-else:
-    half =int(rowsize/2)+1
-    space=halfdiamrow+1
-    for i in range (1,halfdiamrow+1):
-        for j in range(1,space+1):
-            print(end="")
-            space=space+1
-            num=1
-            for j in range (2*i-1):
-                print(end=str(num))
-                num=num+1
-                print()
+from builtins import ValueError, input, print
+
+rowsize = int(input("please enter the number of rows: "))
+
+if rowsize < 1:
+    raise ValueError("The number of rows must be positive")
+
+top_rows = (rowsize + 1) // 2
+bottom_rows = rowsize // 2
+
+for i in range(1, top_rows + 1):
+    print(" " * (top_rows - i), end="")
+    print(" ".join(str(num) for num in range(1, 2 * i)))
+
+for i in range(bottom_rows, 0, -1):
+    print(" " * (top_rows - i), end="")
+    print(" ".join(str(num) for num in range(1, 2 * i)))

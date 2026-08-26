@@ -1,4 +1,6 @@
-print("Hello, world")
-print("Hi my name is Emmanuel")
-print(5+8)
-print("")
+import builtins
+
+builtins.print("Hello, world")
+builtins.print("Hi my name is Emmanuel")
+builtins.print(5 + 8)
+builtins.print("")

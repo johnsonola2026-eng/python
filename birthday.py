@@ -1,3 +1,5 @@
+from builtins import print
+
 x="january/15"
 y="friend1"
 print(x)
@@ -13,10 +15,10 @@ y="friend3"
 print(x)
 print(y)
 
-X="december/25"
+x="december/25"
 y="friend4"
-print(X)
-print(y)
+print(x)
+print(x)
 
 x="october/31"
 y="friend5"

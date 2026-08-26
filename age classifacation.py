@@ -1,5 +1,7 @@
-age = int(input("type age: "))
+import builtins
+
+age = int(builtins.input("type age: "))
 if 10 <= age <=20:
-    print("success")
+    builtins.print("success")
 else:
-        print("invaild")
+    builtins.print("invaild")
