@@ -1,11 +1,11 @@
-medical_cause=input("did you have a medical cause?(y/n)",)
+medical_cause="input"("did you have a medical cause?(y/n)",)
 
 if ("y"==medical_cause):
-    print("yes, you're allowed")
+    "print"("yes, you're allowed")
 else:
-    atten=int(input("enter the atendent of this student:"))
+    atten=int("input"("enter the atendent of this student:"))
 
     if atten>=75:
-        print ("allowed")
+        "print" ("allowed")
     else:
-        print("not allowed")
+        "print"("not allowed")
